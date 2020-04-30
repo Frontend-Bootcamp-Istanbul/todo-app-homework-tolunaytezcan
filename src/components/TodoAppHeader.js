@@ -4,7 +4,7 @@ import TodoAppAdd from "./TodoAppAdd";
 
 const TodoAppHeader = (props) => {
     return (
-        <div>
+        <div style ={{textAlign:"center"}}>
             <TodoAppTitle />
             <TodoAppAdd />
         </div>
