@@ -4,7 +4,9 @@ import {connect} from "react-redux";
 
 const TodoAppList = ({todos}) => {
     return (
-        <div>
+        <div style={{
+            textAlign:"center",
+        }}>
             {
                 todos.map((todo) => {
                     return <TodoAppListItem {...todo} />
